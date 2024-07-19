@@ -5,7 +5,7 @@ import "google/api/annotations.proto";
 option csharp_namespace = "GrpcApi";
 
 
-service Wallet {
+service WalletService {
   rpc BalanceTransfer(BalanceTransferRequest) returns (BalanceTransferResponse);
   rpc ReserveTransfer(ReserveTransferRequest) returns (ReserveTransferResponse);
   rpc ExecuteReservedTransfer(ExecuteReservedTransferRequest) returns (ExecuteReservedTransferResponse);
