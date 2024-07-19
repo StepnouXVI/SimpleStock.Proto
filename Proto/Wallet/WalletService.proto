@@ -43,7 +43,7 @@ message ReserveTransferResponse
 
 message ReleaseReservedMoneyRequest
 {
-  string reseration_id = 1;
+  string reservation_id = 1;
 }
 
 message ReleaseReservedMoneyResponce
